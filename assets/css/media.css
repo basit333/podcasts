@@ -1,0 +1,257 @@
+@media screen and (max-width: 1476px) {
+    .container {
+        width: 1476px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 15%;
+    }
+
+    .right img {
+        width: 900px;
+        position: absolute;
+        top: 10%;
+        left: 42%;
+    }
+
+
+    .left {
+        width: 700px;
+        position: absolute;
+        top: 42%;
+        left: 17%;
+    }
+
+    .img-secondary img {
+        width: 232px;
+        position: absolute;
+        top: 104%;
+        left: 87%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 15%;
+    }
+
+    .right img {
+        width: 900px;
+        position: absolute;
+        top: 10%;
+        left: 42%;
+    }
+
+
+    .left {
+        width: 694px;
+        position: absolute;
+        top: 40%;
+        left: 12%;
+    }
+
+    .img-secondary img {
+        width: 232px;
+        position: absolute;
+        top: 104%;
+        left: 97%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 1024px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 15%;
+    }
+
+    .right img {
+        width: 800px;
+        position: absolute;
+        top: 10%;
+        left: 41%;
+    }
+
+    .left {
+        width: 650px;
+        position: absolute;
+        top: 33%;
+        left: 5%;
+        padding: 40px 10px 0 0;
+    }
+
+    .left .publish {
+        font-size: 48px;
+    }
+
+    .img-secondary img {
+        width: 232px;
+        position: absolute;
+        top: 93%;
+        left: 96%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 768px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 3%;
+    }
+
+    .right img {
+        width: 491px;
+        height: 652px;
+        position: absolute;
+        top: 0;
+        left: 36%;
+        object-fit: cover;
+    }
+
+    .left {
+        width: 635px;
+        position: absolute;
+        top: 33%;
+        left: 3%;
+        padding: 44px 20px 0 0;
+    }
+
+    .left .publish {
+        font-size: 47px;
+    }
+
+    .img-secondary img {
+        width: 232px;
+        position: absolute;
+        top: 125%;
+        left: 3%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    body {
+        background: none;
+        background-image: url(../img/image-host-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    body::before {
+        position: absolute;
+        content: '';
+        background-color: #121725;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.9;
+    }
+
+    .container {
+        width: 480px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px auto 0 auto;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .right img {
+       display: none;
+    }
+
+    .left {
+        width: 100%;
+        top: 17%;
+        left: 0;
+        padding: 18px 20px 0 0;
+        background: none;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .left .publish {
+        font-size: 26px;
+        width: 100%;
+        text-align: center;
+        line-height: 38px;
+        margin: 0;
+    }
+
+    .left .upload {
+        width: 100%;
+        padding: 33px;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+
+    .email {
+        position: absolute;
+        top: 115%;
+        background: none;
+        display: inline-block;
+    }
+
+    input[type=text] {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--bg-dark-gray);
+        border-radius: 30px;
+        width: 100%;
+        padding: 10px 5px;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25px;
+        margin-bottom: 40px;
+        border-radius: 30px;
+        font-weight: 900;
+    }
+
+    .img-secondary img {
+      display: none;
+    }
+
+    .social {
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+}

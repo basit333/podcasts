@@ -1,0 +1,158 @@
+:root {
+    --bg-primary-color: #54E6AF;
+    --bg-dark-gray: #2C344B;
+    --bg-light-gray: #5A668A;
+    --bg-black: #121725;
+    --bg-white: #FFFFFF;
+    --bg-secondary-color: #C2CBE5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chivo', sans-serif;
+    background: var(--bg-black);
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1275px;
+}
+
+.logo {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+
+.right img {
+    width: 900px;
+    position: absolute;
+    top: 10%;
+    left: 42%;
+}
+
+.left {
+    width: 800px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    background-color: var(--bg-black);
+    z-index: 1;
+    padding: 60px 10px 0 0;
+}
+
+.content {
+    max-width: 723px;
+}
+
+.content .publish {
+    width: 665px;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: var(--bg-white);
+    margin-bottom: 24px;
+}
+
+.content .publish span {
+    color: var(--bg-primary-color);
+}
+
+.content .upload {
+    width: 445px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--bg-secondary-color);
+    margin-bottom: 40px;
+}
+
+.email {
+    width: 427px;
+    background: var(--bg-dark-gray);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+input[type=text] {
+    width: 260px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: var(--bg-white);
+    opacity: 0.9;
+    font-weight: 400;
+    font-family: 'Chivo', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 28px;
+    outline: none;
+}
+
+input[type=text]::active {
+    color: var(--bg-white);
+    border: none;
+}
+
+.btn {
+    background: var(--bg-primary-color);
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 400;
+    font-family: 'Chivo', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    font-style: normal;
+    color: var(--bg-black);
+}
+
+.btn:hover {
+    background-color: #B3FFE2;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.social {
+    max-width: 536px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.img-1 {
+    width: 96px;
+    color: var(--bg-light-gray);
+}
+
+.img-2 {
+    width: 78px;
+    color: var(--bg-light-gray);
+}
+
+.img-3 {
+    width: 125px;
+    color: var(--bg-light-gray);
+}
+
+.img-4 {
+    width: 129px;
+    color: var(--bg-light-gray);
+}
+
+.img-secondary img {
+    width: 232px;
+    position: absolute;
+    top: 88%;
+    left: 84%;
+}
